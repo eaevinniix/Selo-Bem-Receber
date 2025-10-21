@@ -1,0 +1,236 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+@font-face {
+    font-family: fonte-titulo;
+    src: url(/fontes/ArchivoBlack-Regular.ttf);
+}
+
+@font-face {
+    font-family: fonte-texto;
+    src: url(/fontes/Raleway-VariableFont_wght.ttf);
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6; 
+    padding-top: 150px;         /* espaço para a nav  não cobrir o conteúdo*/
+    background-color: #ffffff;
+}
+
+.logo {
+    justify-content: left;
+    align-items: center;
+    width: 400px;
+}
+
+.imagem-logo {
+    width: 90px;
+}
+
+header {
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 1);
+    background-color: #368DC6;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    color: #FDBB15;
+    align-items: center;
+    font-size: 20px;
+    font-family: fonte-titulo;
+}
+
+header, nav ul {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    align-items: center;
+    font-family: fonte-titulo;
+}
+
+nav ul li {
+    margin-left: 1rem;
+    align-items: center;
+    list-style-type: none;
+}
+
+nav ul li a {
+    color: #FDBB15;
+    text-decoration: none;
+    align-items: center;
+    font-weight: bold;
+    padding: 1px 1px;
+    border-radius: 5px;
+    transition: background-color 0.5s;
+    justify-content: center;
+    margin: 3px;
+}
+
+nav ul li a:hover {
+    background-color: #71C9F1;
+}
+
+.paragrafo{
+    color: rgb(255, 255, 255);
+    background-color: #368DC6;
+    align-items: center;
+    justify-content: space-between;          /* Espaça os dois lados igualmente */
+    font-size: 14px;
+    text-align: center;
+    margin: 30px auto;
+    padding: 20px;
+    max-width: 1200px;
+    border-radius: 15px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    font-family: fonte-texto;
+}
+
+.paragrafo img {
+    width: 360px;
+}
+.paragrafo h2{
+  margin-bottom: 10px;                      
+  font-size: 40px;                           
+  color: #daab14;
+  font-family: fonte-titulo;
+  text-align: center
+  
+}
+
+.paragrafo p{
+    text-align: justify;
+    line-height: 1.6; 
+    font-size: 22px;
+}
+
+.paragrafo ul {
+    padding-left: 20px; 
+    margin: 10px auto;
+    text-align: left; 
+}
+
+#lista {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#lista img{
+    width: 270px;
+    height: 270px;
+
+}
+
+.paragrafo li {
+    font-size: 28px;
+}
+
+.fraseEfeito  h2 {
+  margin-bottom: 10px;                      
+  font-size: 40px;                           
+  color: #daab14;
+  font-family: fonte-titulo;
+  text-align: center
+}
+
+#DivulgacaoSelo {
+    align-items: center;
+    justify-content: center;
+}
+
+#DivulgacaoSelo  p {
+    text-align: justify;
+    line-height: 1.6; 
+    font-size: 22px;
+    font-family: fonte-texto;
+}
+
+#DivulgacaoSelo ul {
+    padding-left: 20px; 
+    margin: 10px auto;
+    text-align: center; 
+    list-style-type: none;
+}
+
+#DivulgacaoSelo ul li a {
+    color: #FDBB15;
+    text-decoration: none;
+    align-items: center;
+    font-family: fonte-titulo;
+    border-radius: 5px;
+    transition: background-color 0.5s;
+    justify-content: center;
+    margin: 3px;
+}
+
+#DivulgacaoSelo nav ul li a:hover {
+    background-color: #71C9F1;
+}
+
+
+.rodape {
+    background-color: #368DC6;
+    color: white;
+    text-align: center;
+    padding: 20px 10px;
+    font-size: 14px;
+    margin-top: 40px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  }
+
+
+
+  /* CSS DA PAGINA EMPRESAS*/
+
+
+.tituloempresas{
+    font-size: 24px;
+    padding: 1px;
+    text-align: center;
+    color: #daab14;
+    font-family: fonte-titulo;
+}
+
+.empresas {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+    background-color: #368DC6;
+    margin: 30px auto;
+    padding: 20px;
+    max-width: 900px;
+    border-radius: 15px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.infoempresa h2 {
+    margin-bottom: 10px;
+    font-size: 22px;
+    color: #daab14;
+    text-align: center;
+}
+
+.infoempresa p {
+    text-align: justify;
+    line-height: 1.6;
+    color: rgb(255, 255, 255);
+    font-family: fonte-texto;
+}
+
+.imagemempresa {
+    flex-shrink: 0;
+    max-width: 200px;
+   
+}
+
+.imagemempresa img {
+    width: 100%;
+    height: auto;
+    border-bottom: 10px;
+}
