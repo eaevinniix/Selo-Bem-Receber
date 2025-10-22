@@ -122,7 +122,6 @@ nav ul li a:hover {
 #lista img{
     width: 270px;
     height: 270px;
-
 }
 
 .paragrafo li {
@@ -223,14 +222,7 @@ nav ul li a:hover {
     font-family: fonte-texto;
 }
 
-.imagemempresa {
-    flex-shrink: 0;
-    max-width: 200px;
-   
-}
-
-.imagemempresa img {
-    width: 100%;
-    height: auto;
-    border-bottom: 10px;
+.imagem-empresas {
+    width: 270px;
+    height: 270px;
 }
